@@ -1,0 +1,4 @@
+name: "Module Hero"
+description: "Module to create hero website"
+type: module
+core: 8.x
