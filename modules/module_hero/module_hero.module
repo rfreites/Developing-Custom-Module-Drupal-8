@@ -1,0 +1,19 @@
+<?php
+/**
+ * @filesource
+ * Implementing our hooks
+ */
+
+ /**
+  * Implementing hook_theme().
+  */
+ function module_hero_theme($existing, $type, $theme, $path) {
+  return array(
+    'hero_list' => array(
+      'variables' => array(
+        'items' => array(),
+        'title' => ''
+      ),
+    )
+  );
+ }

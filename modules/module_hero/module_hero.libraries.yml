@@ -1,0 +1,10 @@
+animatecss:
+  remote: https://daneden.github.io/animate.css/
+  version: 3.5.2
+  license:
+    name: MIT
+    url: https://github.com/daneden/animate.css/blob/master/LICENSE
+    gpl-compatible: true
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css: { type: external, minified: true }

@@ -1,0 +1,8 @@
+{{ attach_library('module_hero/animatecss') }}
+<h4 class="animated bounce">{{ title }}</h4>
+{% set delay_timer = 5 %}
+<ol>
+  {% for item in items %}
+    <li class="animated bounce delay-{{ delay_timer }}s">{{ item.name }}</li>
+  {% endfor %}
+</ol>
