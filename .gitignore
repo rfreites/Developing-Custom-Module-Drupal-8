@@ -2,3 +2,4 @@ db-data/
 sites/
 node_modules/
 error.log
+.env
